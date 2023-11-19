@@ -1,0 +1,6 @@
+  API_KEY=AIzaSyCiW_Pd9AXNxK2mvLbtg92SpJpeZg_JMD4
+  AUTH_DOMAIN=whatsapp2-f86c8.firebaseapp.com
+  PROJECT_ID=whatsapp2-f86c8
+  STORAGE_BUCKET=whatsapp2-f86c8.appspot.com
+  MESSAGING_SENDER_ID=89570932936
+  APP_ID=1:89570932936:web:b64bc85b7f80228c150dfd

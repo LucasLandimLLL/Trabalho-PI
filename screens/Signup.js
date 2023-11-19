@@ -22,7 +22,7 @@ export default function Login ({ navigation }) {
             <Image source={backImage} style={styles.backImage} />
             <View style={styles.whiteSheet} />
             <SafeAreaView style={styles.form}>
-                <Text style={styles.title}>Login</Text>
+                <Text style={styles.title}>Cadastro</Text>
                 <TextInput
                 style={styles.input}
                 placeholder="Digite email"
@@ -50,7 +50,7 @@ export default function Login ({ navigation }) {
       </TouchableOpacity>
       <View style={{marginTop: 20, flexDirection: 'row', alignItems: 'center', alignSelf: 'center'}}>
         <Text style={{color: 'gray', fontWeight: '600', fontSize: 14}}>Você já tem uma conta?</Text>
-        <TouchableOpacity onPress={() => navigation.navigate("Signup")}>
+        <TouchableOpacity onPress={() => navigation.navigate("Login")}>
           <Text style={{color: '#f57c00', fontWeight: '600', fontSize: 14}}> Login</Text>
         </TouchableOpacity>
       </View>
